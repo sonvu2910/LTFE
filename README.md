@@ -31,7 +31,7 @@ Dự án này là việc tái tạo lại trang web báo điện tử Thanh Niê
 
 ### Yêu cầu cài đặt
 
--  Node.js và npm.
+-  Node.js.
 -  IDE: Visual Studio Code (VSCode).
 
 ### Các bước cài đặt và chạy dự án (sử dụng terminal)
@@ -48,7 +48,13 @@ Dự án này là việc tái tạo lại trang web báo điện tử Thanh Niê
    ```bash
    npm install
    ```
-4. Chạy dự án:
+4. Chạy giao diện dự án:
    ```bash
+   npm run dev
+   ```
+5. Chạy server Express port 5000 để kéo dữ liệu về:
+   ```bash
+   cd server
+   npm install
    npm run dev
    ```
