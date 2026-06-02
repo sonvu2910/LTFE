@@ -52,10 +52,13 @@ Dự án này là việc tái tạo lại trang web báo điện tử Thanh Niê
    ```bash
    npm run dev
    ```
-5. Chạy server Express port 5000 để kéo dữ liệu về:
+5. Di chuyển vào thư mục server của dự án:
    ```bash
    cd server
+   ```
+6. Cài đặt các pakage cho server và run tại port 5000:
+   ```bash
    npm install
    npm run dev
    ```
-6. Xem kết quả ở http://localhost:3000/
+7. Xem kết quả tại https://localhost:3000/
