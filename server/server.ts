@@ -4,6 +4,7 @@ import tvScheduleRoutes from './routes/tvSchedule';
 import movieScheduleRoutes from './routes/movieSchedule';
 import fuelPrices from './routes/fuelPrices'
 import aqi from './routes/aqi'
+import axios from 'axios';
 
 const app = express();
 const PORT = 5000;
