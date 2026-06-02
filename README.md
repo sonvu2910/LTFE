@@ -58,3 +58,4 @@ Dự án này là việc tái tạo lại trang web báo điện tử Thanh Niê
    npm install
    npm run dev
    ```
+6. Xem kết quả ở http://localhost:3000/
