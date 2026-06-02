@@ -7,7 +7,7 @@ export interface RSS {
    pubDate: string
 }
 // URL của proxy trên máy cục bộ
-export const proxyUrl = 'http://localhost:8080/'
+export const proxyUrl = 'http://localhost:5000/'
 export const useRssFeed = (url: string) => {
    const [rssItems, setRssItems] = useState<RSS[]>([])
 
